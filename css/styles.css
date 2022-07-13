@@ -44,19 +44,27 @@
   grid-area: card3;
 }
 
-.card {
+.card1 {
+  width: 18rem;
+}
+
+.card2 {
+  width: 18rem;
+}
+
+.card3 {
   width: 18rem;
 }
 
 .imagen-tarjeta {
-  width: 60%;
+  width: 55%;
 }
 
 .img {
   width: 90%;
 }
 
-.background, .background--footer {
+.background, .background--footer, .background--footer_compra {
   background-image: linear-gradient(90deg, #000000 0%, #764ba2 0%, #667eea 100%);
 }
 
@@ -166,10 +174,14 @@ h6 {
   font-size: 1.2rem;
 }
 
-.background--footer {
+.background--footer, .background--footer_compra {
   background-image: none;
   background-color: #000000;
   padding: 50px;
+}
+
+.background--footer_compra {
+  padding: 65px;
 }
 
 .botonescolorPagina {

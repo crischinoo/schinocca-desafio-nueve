@@ -4,3 +4,7 @@
     background-color: $black;
     padding: 50px;
   }
+  .background--footer_compra {
+    @extend .background--footer;
+    padding: 65px;
+  }
