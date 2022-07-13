@@ -1,0 +1,28 @@
+
+@mixin fontSize ($size) {
+    font-size: $size;
+  }
+.titulo-span {
+    @include fontSize(2rem)
+  }
+h1 {
+    @include fontSize(2rem)
+}
+h2 {
+    @include fontSize(1rem)
+}
+h3 {
+    @include fontSize(1rem)
+}
+h4 {
+    @include fontSize(1rem)
+}
+h5 {
+    @include fontSize(1rem)
+}
+h6 {
+    @include fontSize(1rem)
+}
+.contactos {
+    @include fontSize(1.2rem)
+}

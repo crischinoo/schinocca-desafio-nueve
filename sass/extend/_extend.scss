@@ -1,0 +1,6 @@
+.background--footer {
+    @extend .background;
+    background-image: none;
+    background-color: $black;
+    padding: 50px;
+  }

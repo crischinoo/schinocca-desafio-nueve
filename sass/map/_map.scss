@@ -1,0 +1,10 @@
+$clorsMap: (
+  fondoGradient: linear-gradient(90deg, #000000 0%, #764ba2 0%, #667eea 100%),
+  textoColor: #ffffff,
+  textocolorDos: #2a4dea,
+  colorNegro: #000000,
+  colorPagina: #764ba2,
+);
+.botonescolorPagina{
+    background-image: map-get($clorsMap, fondoGradient);
+}
